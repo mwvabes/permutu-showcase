@@ -26,6 +26,10 @@ For development purposes, I created a Docker ecosystem to easily host whole plat
 
    Written in NodeJS + ExpressJS. Keeps all data about users, especially history of their previous gameplays in a MongoDB database.
 
+Basic concept of architecture is shown on image below:
+
+![Architecture](https://github.com/mwvabes/permutu-showcase/blob/main/img/architecture.png?raw=true)
+
 ### Frontend modules
 
 Both of them are written using NextJS with i18n. TailwindCSS takes responsibility for neat UI, which was designed all by myself.
@@ -39,3 +43,17 @@ Both of them are written using NextJS with i18n. TailwindCSS takes responsibilit
    All of the action takes place here. The app is developed to show all currently created rooms, lets user to join them and take a part in the game. The platform implements a chat module in rooms and connects with all of the backend microservices, especially with a _gameplay microservice_ using SocketIO.
 
 ---
+
+## A little bit of how the app looks like
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-1.png?raw=true)
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-2.png?raw=true)
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-3.png?raw=true)
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-4.png?raw=true)
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-5.png?raw=true)
+
+![](https://github.com/mwvabes/permutu-showcase/blob/main/img/front-6.png?raw=true)
